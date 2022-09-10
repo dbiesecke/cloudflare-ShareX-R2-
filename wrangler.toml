@@ -1,9 +1,8 @@
 name = "sharex-r2-cloudflare-workers"
-account_id = "522ed7942a6ec29727e101623a48ea76"
+account_id = "dded6000a11d9d67bce9e0a0c729f56b"
 workers_dev = true
 routes = [
-	{pattern = "r2-sharex.jross.me/*", zone_name = "jross.me"},
-	{pattern = "i.james.pub/*", zone_name = "james.pub"}
+	{pattern = "uploads.bayliss.app/*", zone_name = "bayliss.app"}
 ]
 
 compatibility_date = "2022-04-22"
@@ -13,6 +12,6 @@ main = "./dist/index.mjs"
 command = "npm run build"
 
 [[r2_buckets]]
-bucket_name = "sharex-files"
+bucket_name = "sharex-uploads"
 preview_bucket_name = "sharex-files"
 binding = "R2_BUCKET"
