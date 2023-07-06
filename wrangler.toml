@@ -1,5 +1,5 @@
 name = "sharex-r2-cloudflare-workers"
-account_id = "dded6000a11d9d67bce9e0a0c729f56b"
+account_id = "25169d5343500c4d212c73e2b92c6f33"
 workers_dev = false
 routes = [
 	{pattern = "uploads.bayliss.app/*", zone_name = "bayliss.app"}
