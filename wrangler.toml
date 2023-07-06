@@ -1,8 +1,9 @@
-name = "sharex-r2-cloudflare-workers"
-account_id = "25169d5343500c4d212c73e2b92c6f33"
+name = "sharex"
+account_id = "7d42f6d7d6839c9e3c607b7188427e67"
 workers_dev = false
+
 routes = [
-	{pattern = "uploads.bayliss.app/*", zone_name = "bayliss.app"}
+        {pattern = "sharex.btc-mining.at/*", zone_name = "btc-mining.at"}
 ]
 
 compatibility_date = "2022-04-22"
