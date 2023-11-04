@@ -8,6 +8,7 @@ routes = [
 compatibility_date = "2022-04-22"
 main = "./dist/index.mjs"
 
+
 [build]
 command = "npm run build"
 
